@@ -1,0 +1,25 @@
+.vscode
+
+## ignore all cmake generated files
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+Makefile
+ui_**.h
+src/include/moc_*
+
+*.ignore.*
+*.ignore/
+
+##additional cmake generated files
+src/moc_player.cpp
+moc_meta_editor.cpp
+src/moc_main_window.cpp
+
+q_example
+q_example.cpp
+*_automoc.cpp
+
+# ignore qt auto
+src/Gui_autogen
+src/Gui

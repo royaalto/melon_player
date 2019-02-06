@@ -1,0 +1,26 @@
+
+/* *{
+    background-color: #202129;
+    color:white;
+} */
+
+
+QMainWindow#MainWindow{
+    border: 1px solid white;
+}
+
+QWidget#BgWidget{
+    border: 1px solid black;
+    /*border-radius: 10px;*/
+}
+
+QWidget#ShowCtrlBarPlaylistBgWidget{
+    border: 1px solid black;
+    border-top:none;
+}
+
+QWidget#PlaylistWid>PlaylistContents
+{
+    border: 1px solid black;
+} */
+
